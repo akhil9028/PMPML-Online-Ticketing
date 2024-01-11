@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PMPML</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Roboto+Condensed:wght@100&family=Roboto+Slab&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cf268fac04.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="images/logo.jpeg" alt="sbdhm" />
+      <a href="#" onclick="toggleDropdown()"
+        ><i class="fa-solid fa-bars fa-2xl"></i
+      ></a>
+      <div id="dropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="#">Helpline</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="content">
+        <h2>
+          BUS ID:298 <br />
+          <br />
+          Katraj -> Swargate
+        </h2>
+        <h1 class="heading">PMPML Ticket Booking</h1>
+        <img src="images/newbustand.jpeg" alt="" />
+        <div class="btn">
+          <button onclick="redirectToDailyPass()">Book Pass</button>
+          <button onclick="redirectToBookTicket()">Book Ticket</button>
+        </div>
+      </div>
+    </div>
+    <div class="map">
+      <iframe
+        class="maps"
+        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d30273.108677535096!2d73.84147981856287!3d18.47738078687509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3bc2eac101655f87%3A0xcc5b0a20d60c9ac8!2skatraj!3m2!1d18.4529322!2d73.86523799999999!4m5!1s0x3bc2c014271918c5%3A0xfa3ce63f0c494d3f!2sswargate%20pune!3m2!1d18.5018322!2d73.8635912!5e0!3m2!1sen!2sin!4v1704703549246!5m2!1sen!2sin"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

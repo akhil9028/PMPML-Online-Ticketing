@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Ticket</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/cf268fac04.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="images/logo.jpeg" alt="sbdhm" />
+      <a href="#" onclick="toggleDropdown()"
+        ><i class="fa-solid fa-bars fa-2xl"></i
+      ></a>
+      <div id="dropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="#">Helpline</a>
+      </div>
+    </div>
+    <div class="bookticketContainer">
+      <div class="bookTicket">
+        <h1>Book Ticket</h1>
+        <div class="details">
+          <div class="group">
+            <img src="images/location.png" alt="" />
+            <h2>From</h2>
+          </div>
+          <!-- <span id="from">Katraj</span> -->
+
+          <select name="" id="location">
+            <option value="Katraj">Katraj</option>
+            <option value="BalajiNagar">Balaji Nagar</option>
+            <option value="K.K. Market">K.K. Market</option>
+            <option value="Padmavati">Padmavati</option>
+            <option value="Bibewadi">Bibewadi</option>
+            <option value="Morebaug">Morebaug</option>
+            <option value="Swargate">Swargate</option>
+          </select>
+
+          <div class="group">
+            <img src="images/location.png" alt="" />
+            <h2>To</h2>
+          </div>
+          <!-- <span id="to"> Swargate </span> -->
+
+          <select name="" id="location">
+            <option value="Katraj">Katraj</option>
+            <option value="BalajiNagar">Balaji Nagar</option>
+            <option value="K.K. Market">K.K. Market</option>
+            <option value="Padmavati">Padmavati</option>
+            <option value="Bibewadi">Bibewadi</option>
+            <option value="Morebaug">Morebaug</option>
+            <option value="Swargate">Swargate</option>
+          </select>
+          <div class="group">
+            <img src="images/beproject passenger.jpeg" alt="" />
+            <h2>Passenger</h2>
+          </div>
+          <div class="select">
+            <label for="">
+              <select name="" id="passenger">
+                <option value="1">1 people</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4">4 people</option>
+                <option value="5">5 people</option>
+                <option value="6">6 people</option>
+                <option value="7">7 people</option>
+                <option value="8">8 people</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="fare">
+          Total Fare: <span id="fare">20</span><span>rs</span>
+        </div>
+
+        <button onclick="booknow()" class="pay">Pay</button>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
