@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirm Booking</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cf268fac04.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="images/logo.jpeg" alt="sbdhm" />
+      <a href="#" onclick="toggleDropdown()"
+        ><i class="fa-solid fa-bars fa-2xl"></i
+      ></a>
+      <div id="dropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="#">Helpline</a>
+      </div>
+    </div>
+    <div class="container5">
+      <div class="top5">
+        <h1>Complete Booking</h1>
+      </div>
+      <div class="middle5">
+        <h2>From: <span id="source">Source</span></h2>
+        <h2 id="to">To: <span id="Destination">Dest.</span></h2>
+        <h2>Tickets: <span id="ticket">2 Seats</span></h2>
+        <h2>Bus Id: <span id="bus">BA123</span></h2>
+        <h2>Total: <span id="rs">RS.100.00</span></h2>
+      </div>
+
+      <div class="bottom5">
+        <button>Continue to Payment</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
