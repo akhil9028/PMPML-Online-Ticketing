@@ -449,23 +449,30 @@ button:hover {
 }
 
 .top5 {
-  text-align: center;
+  /* text-align: center; */
   background-color: #6fa178;
   color: #fff;
-  padding: 10px;
-  border-radius: 1rem;
-}
-.top5 h1 {
   padding: 1rem;
-  margin-top: 1rem;
-  text-align: center;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top5 h2 {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+  /* padding: 1rem; */
+  /* margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem; */
+  /* text-align: center; */
   color: #fff;
 }
 
 .middle5 {
   margin: 18px 0;
   border: 1px solid #ccc;
-  padding: 20px;
   background-color: #f5f5f5;
   border-radius: 5px;
   line-height: 3rem;
@@ -495,7 +502,7 @@ button:hover {
 }
 #rs {
   color: red;
-  margin-left: 5.7rem;
+  margin-left: 4rem;
 }
 .bottom5 {
   text-align: center;
@@ -504,6 +511,7 @@ button:hover {
 .bottom5 button {
   font-size: 1.1rem;
   font-weight: 600;
+  padding: 1rem;
 }
 
 /*Successfully Booked Page*/
@@ -568,7 +576,7 @@ h1 {
   border-radius: 1rem;
   width: fit-content;
   margin-left: 9rem;
-  padding: 1rem;
+  padding:  1rem;
   background: #62a26d;
   color: white;
 }
